@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+/* Універсальний селектор */
+* {
+  color: teal;
+}
+
+/* Селектор за типом елемента */
+a {
+  color: blue;
+}
+
+/* Селектор за класом */
+.origins__text {
+  color: aquamarine;
+}
+
+/* Селектор за ідентифікатором */
+#introduction {
+  color: tomato;
+}
+
+/* Селектор за атрибутом */
+[id] {
+  color: orange;
+}
+
+/* Селектор атрибута за кінцевим значенням */
+h2[id$="age"] {
+  color: black;
+}
+
+/* Селектор атрибута за початковим значенням */
+h2[id^="ref"] {
+  color: chocolate;
+}
+
+/* Груповий селектор */
+.war__text,
+h3 {
+  color: darkblue;
+}
+
+/* Комбінатор нащадків */
+.turning p {
+  color: wheat;
+}
+
+/* Дочірній селектор */
+ul > li {
+  color: greenyellow;
+}
+
+/* Комбінатор сусідніх елементів */
+#impact + p {
+  color: salmon;
+}
+
+/* Комбінатор усіх сусідніх елементів */
+#conclusion ~ p {
+  color: mediumblue;
+}
