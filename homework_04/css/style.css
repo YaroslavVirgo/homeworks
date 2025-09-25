@@ -1,12 +1,13 @@
 @import url("reset.css");
 @import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount%20Single%20Ink:wght@300&display=swap");
 
-/* Використання властивості font-family */
+/* Використання властивості font-family через шрифт підключений через link*/
 body {
   font-family: "Oswald", sans-serif;
 }
 
-/* Зміна властивості font-family */
+/* Зміна властивості font-family на шрифт підключений локально*/
 .title {
   font-family: "SairaStencilOne-Regular";
 }
@@ -79,5 +80,5 @@ body {
 }
 
 .link {
-  color: red;
+  font-family: "Bitcount Single Ink", sans-serif;
 }
