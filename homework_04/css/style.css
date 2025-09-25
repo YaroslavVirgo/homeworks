@@ -1,0 +1,83 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+/* Використання властивості font-family */
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Зміна властивості font-family */
+.title {
+  font-family: "SairaStencilOne-Regular";
+}
+
+/* Використання властивості font-size */
+.font-size {
+  font-size: 22px;
+}
+
+/* Використання властивості font-weight */
+.font-weight {
+  font-weight: 700;
+}
+
+/* Використання властивості font-style */
+.font-style {
+  font-style: italic;
+}
+
+/* Використання властивості line-height */
+.line-height {
+  line-height: 2;
+}
+
+/* Використання властивості letter-spacing */
+.letter-spacing {
+  letter-spacing: 10px;
+}
+
+/* Використання властивості word-spacing */
+.word-spacing {
+  word-spacing: 30px;
+}
+
+/* Використання властивості color */
+.color {
+  color: blue;
+}
+
+/* Використання властивості text-align */
+.text-align {
+  text-align: center;
+}
+
+/* Використання властивості text-decoration */
+.text-decoration {
+  text-decoration: line-through;
+  text-decoration-color: yellow;
+  text-decoration-style: wavy;
+}
+
+/* Використання властивості text-transform */
+.text-transform {
+  text-transform: uppercase;
+}
+
+/* Використання властивості text-shadow */
+.text-shadow {
+  text-shadow: 10px 10px 2px pink;
+}
+
+/* Використання властивості white-space */
+.white-space {
+  white-space: pre-wrap;
+}
+
+/* Використання властивості word-break */
+.word-break {
+  word-break: break-all;
+}
+
+.link {
+  color: red;
+}
