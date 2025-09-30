@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Homework 05</title>
+  </head>
+  <body>
+    <header id="top">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#size__anchor" class="header__link">Розміри елементів</a>
+        </li>
+        <li class="header__item">
+          <a href="#indent__anchor" class="header__link">Відступи</a>
+        </li>
+        <li class="header__item">
+          <a href="#layout__anchor" class="header__link"
+            >Головна робота домашнього завдання</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <h1 class="title-main">Конспект з властивостей блоків у CSS</h1>
+
+      <div class="size">
+        <h2 class="size__title" id="size__anchor">Розміри елементів</h2>
+        <div class="size__width-height">
+          В цьому блоці фіксована ширина і висота
+        </div>
+
+        <div class="size__minwidth-minheight">
+          В цьому блоці визначені мінімальна ширина і висота
+        </div>
+
+        <div class="size__maxwidth-maxheight">
+          В цьому блоці визначені максимальна ширина і висота. В цьому блоці
+          визначені максимальна ширина і висота. В цьому блоці визначені
+          максимальна ширина і висота. В цьому блоці визначені максимальна
+          ширина і висота. В цьому блоці визначені максимальна ширина і висота.
+          В цьому блоці визначені максимальна ширина і висота. В цьому блоці
+          визначені максимальна ширина і висота. В цьому блоці визначені
+          максимальна ширина і висота. В цьому блоці визначені максимальна
+          ширина і висота. В цьому блоці визначені максимальна ширина і висота.
+          В цьому блоці визначені максимальна ширина і висота. В цьому блоці
+          визначені максимальна ширина і висота. В цьому блоці визначені
+          максимальна ширина і висота.
+        </div>
+
+        <div class="size__content-box">
+          Тут демонастрація властивості box-sizing: content-box. Хотів блок з
+          шириною 200px та внутрішніми відступами 20px, але застосувавши це в
+          CSS, ширина блоку вийшла 240px.
+        </div>
+
+        <div class="size__border-box">
+          Тут демонастрація властивості box-sizing: border-box. Хотів блок з
+          шириною 200px та внутрішніми відступами 20px і я його отримав, так як
+          браузер вираховує це сам.
+        </div>
+      </div>
+
+      <div class="indent">
+        <h2 class="indent__title" id="indent__anchor">Відступи</h2>
+
+        <p class="indent__text">
+          Для демонстрації зовнішніх відступів використаємо два блоки:
+        </p>
+
+        <div class="indent__item1">
+          Це блок №1 і він "відштовхує" від себе блок №2 зовнішнім відступом на
+          50px
+        </div>
+        <div class="indent__item2">Це блок №2</div>
+
+        <p class="indent__text">
+          Нижче наглядно демонструються внутрішні відступи
+        </p>
+        <div class="indent__item3">
+          Цей блок має внутрішній відступ зліва 30px та верхній 50px
+        </div>
+      </div>
+
+      <div class="layout" id="layout__anchor">
+        <h2 class="layout__title">Why choose us?</h2>
+
+        <div class="feature__wrapper">
+          <ul class="feature__list">
+            <li class="feature__item m-bottom">
+              <img src="img/earth.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">Global delivery</h3>
+              <p class="feature__description">
+                Experience Hassle-Free Shipping and Seamless Global Connectivity
+                with Our Trustworthy and Efficient Delivery Service, Bringing
+                the World to Your Fingertips!
+              </p>
+            </li>
+            <li class="feature__item m-bottom">
+              <img src="img/package-box.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">Free shipping</h3>
+              <p class="feature__description">
+                Shop to Your Heart's Content Without Worrying About Shipping
+                Costs: Our Free Shipping Service Delivers Your Purchases with a
+                Smile, Straight to Your Doorstep!
+              </p>
+            </li>
+            <li class="feature__item m-bottom">
+              <img src="img/phone.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">24/7 supporting</h3>
+              <p class="feature__description">
+                Shop with Confidence Anytime, Anywhere: Our Free Shipping
+                Service Comes with 24/7 Support to Ensure Your Packages Arrive
+                Safely and On Time!
+              </p>
+            </li>
+            <li class="feature__item">
+              <img src="img/email.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">Daily email</h3>
+              <p class="feature__description">
+                Stay Up-to-Date with Your Deliveries: Enjoy the Convenience of
+                Daily Email Updates with Our Free Shipping Service, Making Your
+                Online Shopping Experience Even More Enjoyable!
+              </p>
+            </li>
+            <li class="feature__item">
+              <img src="img/credit-card.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">Easy payment</h3>
+              <p class="feature__description">
+                Shop and Pay with Ease: Our Free Shipping Service Not Only
+                Delivers Your Packages for Free, but Also Offers Easy Payment
+                Options, Making Your Shopping Experience a Breeze!
+              </p>
+            </li>
+            <li class="feature__item">
+              <img src="img/badge.svg" alt="" class="feature__icon" />
+              <h3 class="feature__title">Monthly voucher</h3>
+              <p class="feature__description">
+                More Than Just Free Shipping: Our Service Rewards Your Loyalty
+                with Monthly Vouchers, Giving You More Reasons to Shop and Save
+                on Your Favorite Products!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <a href="#top" class="footer-link">Повернутися на початок сторінки</a>
+      </div>
+    </footer>
+  </body>
+</html>
