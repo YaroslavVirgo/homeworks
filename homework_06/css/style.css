@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+.header__list {
+  text-align: center;
+}
+
+.header__item {
+  display: inline-block;
+}
+
+.header__link {
+  padding: 15px;
+}
+
+.first-path {
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-path__item {
+  margin-bottom: 15px;
+  padding-left: 42px;
+  padding-top: 4px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+}
+
+.first-path__item--green {
+  background-image: url(../img/check-green.svg);
+}
+
+.first-path__item--grey {
+  background-image: url(../img/check-grey.svg);
+}
+
+.second-path {
+  padding-top: 114px;
+  padding-left: 50%;
+  min-height: 612px;
+  background: url(../img/hero-bg.jpg) 0 0 no-repeat;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #2f302c;
+}
+
+.second-path__welcome {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.second-path__furniture {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 1.04;
+}
+
+.second-path__line {
+  margin-bottom: 36px;
+  width: 308px;
+  border: 1px solid #2f302c;
+}
+
+.second-path__browse {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.second-path__text {
+  max-width: 374px;
+  text-transform: none;
+  line-height: 1.25;
+  color: #7e7f7c;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+}
