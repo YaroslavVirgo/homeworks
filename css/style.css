@@ -65,8 +65,10 @@ body {
 .list__item:nth-child(10) {
   animation-delay: 1s;
 }
+.list__item:nth-child(11) {
+  animation-delay: 1.1s;
+}
 
-/* Ссылка занимает всю карточку */
 .list__link {
   display: block;
   background: #f9f9ff;

@@ -1,0 +1,197 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+@import url("fonts.css");
+
+/* Значення за замовченням  */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: clip;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > main {
+  flex-grow: 1;
+}
+
+[class*="__container"] {
+  max-width: 1392px;
+  margin: 0 auto;
+}
+/* ------------------------------------------------------------------- */
+
+/* Загальні стилі */
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.25;
+  color: #2f302c;
+}
+
+/* Стилі шапки */
+.header {
+  background-color: #f6f6f6;
+}
+
+.header__label {
+  padding: 15px 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Стилі футера */
+.footer__text {
+  padding: 15px 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+/* ------------------------------------------------------------------- */
+
+.register {
+  padding: 82px 0;
+}
+
+.register__title {
+  margin-bottom: 36px;
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.register__text {
+  margin-bottom: 164px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #7e7f7c;
+}
+
+.register__wrapper {
+  display: flex;
+  gap: 80px;
+}
+
+.form__title {
+  margin-bottom: 36px;
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.form__text {
+  margin-bottom: 72px;
+  font-weight: 500;
+  color: #7e7f7c;
+}
+
+.form__link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #2f302c;
+  transition: transform 0.3s ease;
+}
+
+.form__link:hover {
+  transform: translateY(-2px);
+}
+
+.form__wrapper {
+  margin-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 712px;
+}
+
+.form__label {
+  flex-basis: 336px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.form__label:nth-child(3) {
+  flex-basis: 712px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.form__input {
+  padding: 12px 0px;
+  border-bottom: 1px solid #d4d4d4;
+  font-weight: 500;
+  color: #2f302c;
+}
+
+.form__input:focus {
+  outline: none;
+}
+
+.form__input::placeholder {
+  color: #7e7f7c;
+  opacity: 1;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.form__input:focus::placeholder {
+  opacity: 0;
+}
+
+.form__button {
+  padding: 12px 104px;
+  background-color: #2f302c;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.promo-banner {
+  position: relative;
+  padding-top: 224px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 336px;
+  flex-basis: 600px;
+  overflow: hidden;
+}
+
+.promo-banner__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.promo-banner__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: end;
+}
+
+.promo-banner__label {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: #ce0000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.promo-banner__title {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+}
